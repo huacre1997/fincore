@@ -16,7 +16,7 @@ pydantic-settings = "^2.7.1"
 loguru = "^0.7.3"
 alembic = "^1.14.1"
 pymysql = "^1.1.1"
-unicorn = "^2.1.2"
+gunicorn = "^23.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
