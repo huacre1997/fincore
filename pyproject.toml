@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "fincore"
+version = "0.1.0"
+description = ""
+authors = ["joel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.7"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+httpx = "^0.28.1"
+sqlalchemy = "^2.0.37"
+tenacity = "^9.0.0"
+pydantic-settings = "^2.7.1"
+loguru = "^0.7.3"
+alembic = "^1.14.1"
+pymysql = "^1.1.1"
+unicorn = "^2.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
